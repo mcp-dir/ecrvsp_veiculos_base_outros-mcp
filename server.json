@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/ecrvsp_veiculos_base_outros-mcp",
+  "title": "ECRVSP Veículos: Base de Outros Estados",
+  "description": "ECRVSP Vehicles: Base de Outros Estados, official-source lookup. Platform-hosted, pay per query with",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/ecrvsp_veiculos_base_outros-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_ecrvsp_veiculos_base_outros"
+    }
+  ]
+}
